@@ -1,0 +1,58 @@
+.even-week {
+  background-color: #e0f7fa; /* Светлый голубой для четных недель */
+}
+
+.even-week .schedule-week-heading,
+.even-week .schedule-department-heading {
+  color: #00796b; /* Темный зеленый для четных недель */
+}
+
+.odd-week {
+  background-color: #fff3e0; /* Светлый оранжевый для нечетных недель */
+}
+
+.odd-week .schedule-week-heading,
+.odd-week .schedule-department-heading {
+  color: #e65100; /* Темно-оранжевый для нечетных недель */
+}
+
+.schedule-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.schedule-heading {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.schedule-table th,
+.schedule-table td {
+  padding: 8px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.schedule-table th {
+  background-color: #f2f2f2;
+}
+
+.lesson {
+  font-size: 14px;
+}
+
+.lesson div {
+  margin: 4px 0;
+}
+
+.empty-cell {
+  font-style: italic;
+  color: #888;
+}
